@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amallar tartibi ketma-ketigi</title>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Kiritilgan misolni ishlanish tartibi</h1>
+        </div>
+        <div Id="errors">csdcs</div>
+            <div class="form">
+                <label for="misol">
+                    <h2>Misol kiritish uchun (max: 6ta son va 5ta amal):</h2>
+                </label>
+                <input type="text" id="misol" placeholder="masalan: 23+5*15/45-12..." value="">
+                <input type="button" id="hisoblash" value="Hisoblash">
+            </div>
+            <div class="tartib">
+                <h2>Ishlanish tartibi</h2>
+                <div class="kursatkich row between">
+                    <div id="isho1" class="item">... <div class="cursor"><i class="bx bxs-down-arrow-alt"></i></div></div>
+                    <div id="isho3" class="item">... <div class="cursor"><i class="bx bxs-down-arrow-alt"></i></div></div>
+                    <div id="isho5" class="item">... <div class="cursor"><i class="bx bxs-down-arrow-alt"></i></div></div>
+                    <div id="isho7" class="item">... <div class="cursor"><i class="bx bxs-down-arrow-alt"></i></div></div>
+                    <div id="isho9" class="item">... <div class="cursor"><i class="bx bxs-down-arrow-alt"></i></div></div>
+                </div>
+                
+                <div class="demo row around">
+                    <div class="item2" id="son1"></div>
+                        <div class="item2" id="amal1"></div>
+                    <div class="item2" id="son2"></div>
+                        <div class="item2" id="amal2"></div>
+                    <div class="item2" id="son3"></div>
+                        <div class="item2" id="amal3"></div>
+                    <div class="item2" id="son4"></div>
+                        <div class="item2" id="amal4"></div>
+                    <div class="item2" id="son5"></div>
+                        <div class="item2" id="amal5"></div>
+                    <div class="item2" id="son6"></div>
+                </div>
+            </div>
+            <div class="natija">
+                <h2>Natija</h2>
+                <div id="natija1">None</div>
+            </div>
+            <div class="loading">
+                <h1>Iltimos kuting !!!</h1>
+                <div class="animat">
+                    <div class="item3"></div>
+                    <div class="item3"></div>
+                    <div class="item3"></div>
+                </div>
+            </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
